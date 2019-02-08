@@ -24,7 +24,13 @@ h1 {
 	text-align: center;
 }
 
-/* The following font information and color codes are provided for you.  They do not match the prototype exactly, but they are fine to use for the assignment and doing so does not count against you.  They are simply meant to help you save time.  We would like everyone to have as close to a pixel-perfect match to the prototype as possible.  If you do find a font/color that matches more precisely, please share it with the team so we can improve the activity for future applicants.  Thank you!  Happy coding!
+/* The following font information and color codes are provided for you.
+ They do not match the prototype exactly, but they are fine to use for the assignment and
+ doing so does not count against you.
+ They are simply meant to help you save time.
+ We would like everyone to have as close to a pixel-perfect match to the prototype as possible.
+ If you do find a font/color that matches more precisely,
+ please share it with the team so we can improve the activity for future applicants.  Thank you!  Happy coding!
 
 	FONTS:
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
@@ -40,3 +46,156 @@ h1 {
 */
 
 /* Your CSS code goes here */
+
+.butwrapper {
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
+	font-size: 12px;
+	color: light grey;
+	display: grid;
+	grid-template: 10px / 125px 125px;
+	grid-template-areas:
+	"u u"
+	background: #f9f9f9;
+	color: gray;
+	margin: 0.2em auto 100px;
+	max-width: 252px;
+}
+.wrapper {
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
+	font-size: 12px;
+	color: light grey;
+	display: grid;
+	grid-template:13px 30px 70px 70px 35px / 125px 125px;
+	grid-template-areas:
+	"a a"
+	"b b"
+	"c c"
+	"d e"
+	"f f";
+	background: #f9f9f9;
+	color: gray;
+	border: 1px solid #eaeaea;
+	margin: 0.8em auto;
+	max-width: 252px;
+}
+
+.item1 {
+	grid-area: a;
+	background-color:white;
+}
+
+.item2 {grid-area: b;}
+
+.item3 {grid-area: c;}
+
+.item4 {grid-area: d;}
+
+.item5 {grid-area: e;}
+
+.item6 {
+	background-color: #fff;
+	grid-area: f;
+	font-style: italic;
+	color: #20A1D4;
+	padding: 0px 20px 0 20px;
+}
+
+.box {
+ 	background-color: #fff;
+	text-align: left;
+	padding: 10px 20px 0 20px;
+}
+
+.boxprogress {
+ 	background-color: #fff;
+	text-align: left;
+	padding: 0px 0px 0px 0px;
+	border: 1px solid #eaeaea;
+}
+
+.boxButton {
+ 	background-color: #fff;
+	text-align: left;
+	padding: 10px 20px 0 10px;
+}
+
+.boxleft {
+ 	background-color: #fff;
+	text-align: left;
+	padding: 0;
+}
+
+.boxright {
+ 	background-color: #fff;
+	text-align: right;
+	padding: 0;
+}
+
+.input{
+	 background: white url(dollar.png) left no-repeat;
+   width:100px;
+	 height: 42px;
+	 border: 1px solid #eaeaea;
+	 font-weight: bold;
+	 font-size: 16px;
+	 padding-left: 20px;
+}
+
+.givenow{
+	 background-color: #1CBC2C;
+   width:100px;
+	 height: 42px;
+	 color: white;
+	 font-weight: bold;
+	 font-size: 14px;
+	 border: 0px solid #eaeaea;
+	 border-radius: 3px;
+}
+
+.submit{
+	 background-color: white;
+   width:118px;
+	 height: 30px;
+	 color: grey;
+	 font-weight: bold;
+	 font-size: 12px;
+	 border: 1px solid #eaeaea;
+	 border-radius: 3px;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: white;
+  padding: 0px;
+}
+
+.progress-bar-fill {
+  display: block;
+  height: 11px;
+  background-color: #EF5F3C;
+}
+
+a {
+  text-align: center;
+	font-size: 14px;
+	text-decoration: none;
+  color: white;
+  display: block;
+  height: 45px;
+	border: 0px solid #eaeaea;
+	border-radius: 3px;
+	margin: 0.8em auto;
+	max-width: 252px;
+	padding: 10px 20px 0 10px;
+}
+
+a:hover {
+  background: #424242;
+}
+
+a:before, a:after{
+  position: absolute;
+  opacity: 0;
+}
